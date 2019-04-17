@@ -2,6 +2,11 @@ package com.visitor.visitors;
 
 import com.visitor.elements.*;
 
+/*
+ComputerVisitor is the main visitor interface.
+It contains methods for visiting each peripheral type.
+ */
+
 public interface ComputerVisitor {
     public void visit(Computer computer);
     public void visit(Keyboard keyboard);

@@ -2,6 +2,11 @@ package com.visitor.visitors;
 
 import com.visitor.elements.*;
 
+/*
+PeripheralChecker is the implementor of ComputerVisitor.
+The visit methods for each peripheral print the status of that peripheral to the console.
+ */
+
 public class PeripheralChecker implements ComputerVisitor{
 
     @Override
