@@ -1,3 +1,8 @@
+package com.visitor.client;
+
+import com.visitor.elements.*;
+import com.visitor.visitors.*;
+
 public class SystemCheck {
     public static void main(String[] args) {
 

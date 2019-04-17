@@ -1,8 +1,12 @@
-public class Computer implements Peripheral{
+package com.visitor.elements;
+
+import com.visitor.visitors.*;
+
+public class Laptop implements Peripheral{
     Peripheral[] computerPeripherals;
 
-    public Computer(){
-        computerPeripherals = new Peripheral[] {new Keyboard(), new Mouse(), new Monitor()};
+    public Laptop(){
+        computerPeripherals = new Peripheral[] {new Keyboard(), new Trackpad(), new Webcam(), new Microphone()};
     }
 
     @Override

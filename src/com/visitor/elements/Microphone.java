@@ -1,3 +1,7 @@
+package com.visitor.elements;
+
+import com.visitor.visitors.*;
+
 public class Microphone implements Peripheral{
 
     @Override

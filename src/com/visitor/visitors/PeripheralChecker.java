@@ -1,3 +1,7 @@
+package com.visitor.visitors;
+
+import com.visitor.elements.*;
+
 public class PeripheralChecker implements ComputerVisitor{
 
     @Override

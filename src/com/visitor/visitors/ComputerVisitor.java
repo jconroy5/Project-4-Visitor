@@ -1,3 +1,7 @@
+package com.visitor.visitors;
+
+import com.visitor.elements.*;
+
 public interface ComputerVisitor {
     public void visit(Computer computer);
     public void visit(Keyboard keyboard);
