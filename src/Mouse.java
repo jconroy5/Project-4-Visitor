@@ -1,6 +1,7 @@
-public class Mouse {
+public class Mouse implements Peripheral{
 
-    public void acccept(ComputerVisitor computerVisitor){
+    @Override
+    public void accept(ComputerVisitor computerVisitor){
         computerVisitor.visit(this);
     }
 }
