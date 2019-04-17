@@ -7,9 +7,11 @@ public class Computer implements Peripheral{
 
     @Override
     public void accept(ComputerVisitor computerVisitor){
+
+        computerVisitor.visit(this);
+
         for(int i = 0; i < computerPeripherals.length; i++){
             computerPeripherals[i].accept(computerVisitor);
         }
-        computerVisitor.visit(this);
     }
 }
